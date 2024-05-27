@@ -4,6 +4,9 @@ import { Link } from "react-router-dom";
 import { AiOutlineHome } from "react-icons/ai";
 import { BsPerson, BsCodeSlash } from "react-icons/bs";
 import { CgFileDocument } from "react-icons/cg";
+import Resume from "./Resume";
+import logo from "../images/logo.avif";
+import "./index.css";
 
 const Nav = () => {
   const [navbarblur, setnavbarblur] = useState(false);
@@ -39,13 +42,14 @@ const Nav = () => {
 
   return (
     <nav className={navbarblur ? "Navbar blur" : "Navbar"}>
-      <h1
-        title="Reload"
-        onClick={() => window.location.reload(true)}
-        className="Logo"
-      >
-        MO
-      </h1>
+      <div className="logo-container">
+        <img
+          src={logo}
+          className="logo"
+          title="Reload"
+          onClick={() => window.location.reload(true)}
+        />
+      </div>
 
       <div className="Hamburger" onClick={showMenu}>
         <span className="bar"></span>
@@ -68,6 +72,9 @@ const Nav = () => {
           <Link to="/Project">
             <BsCodeSlash /> Project
           </Link>
+        </li>
+        <li onClick={hideMenu}>
+          <Link to="/Resume">Resume</Link>
         </li>
       </ul>
     </nav>

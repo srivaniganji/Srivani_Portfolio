@@ -1,10 +1,8 @@
 import React from "react";
 import ProjectBox from "./ProjectBox";
-import NewsletterImage from "../images/NewsletterImage.png";
-import RogfreeImage from "../images/RogfreeImage.png";
-import TindogImage from "../images/TindogImage.png";
-import WigglesImage from "../images/WigglesImage.png";
-
+import placementRecord from "../images/placement-record.png";
+import gst from "../images/gst.jpeg";
+import expressVissa from "../images/expressvissa.jpeg";
 const Projects = () => {
   return (
     <div>
@@ -12,11 +10,12 @@ const Projects = () => {
         My <b>Projects</b>
       </h1>
       <div className="project">
+        <ProjectBox projectPhoto={expressVissa} projectName="Express Vissa" />
+        <ProjectBox projectPhoto={gst} projectName="Gst Bills and Invoices" />
         <ProjectBox
-          projectPhoto={WigglesImage}
-          projectName="WheatherForecastApp"
+          projectPhoto={placementRecord}
+          projectName="Placement Particulars Portal"
         />
-        <ProjectBox projectPhoto={NewsletterImage} projectName="TodoList" />
       </div>
     </div>
   );

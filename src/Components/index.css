@@ -1,0 +1,24 @@
+.logo-container {
+  display: flex;
+}
+
+.logo {
+  width: 8%;
+  margin-top: 10px;
+  margin-left: 50px;
+  margin-right: 0px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.about-page {
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  border-radius: 50%;
+}
+
+.about-page-container {
+  display: flex;
+  justify-content: center;
+}

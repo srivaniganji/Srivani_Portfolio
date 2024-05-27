@@ -6,22 +6,22 @@ import { SiLeetcode } from "react-icons/si";
 const Footer = () => {
   return (
     <footer>
-      <h4>Developed by Mohammad Obaid</h4>
-      <h4>Copyright &copy; 2024 MO</h4>
+      <h4>Developed by Nithin Ambati</h4>
+      <h4>Copyright &copy; 2024 SG</h4>
       <div className="footerLinks">
-        <a href="https://github.com/obaid2249" target="_blank">
+        <a href="https://github.com/srivaniganji" target="_blank">
           <FaGithub />
         </a>
         <a
-          href="https://www.linkedin.com/in/mohammad-obaid-66429924b/"
+          href="https://www.linkedin.com/in/srivani-ganji-339a5a240/"
           target="_blank"
         >
           <FaLinkedin />
         </a>
-        <a href="mailTo:obaidulla2249@gmail.com" target="_blank">
+        <a href="mailTo:srivaniganji2805@gmail.com" target="_blank">
           <GrMail />
         </a>
-        <a href="https://leetcode.com/obaidulla2249/" target="_blank">
+        <a href="https://leetcode.com/u/Srivani_Ganji/" target="_blank">
           <SiLeetcode />
         </a>
       </div>
