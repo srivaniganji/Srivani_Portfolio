@@ -27,10 +27,10 @@ const Home = () => {
             Brief <b>introduction</b>
           </h1>
           <p>
-            I am passionate about transforming ideas into functional, user-centric digital products that create meaningful impact. I strive to work on projects that challenge me technically and allow me to grow as a developer.
+            I am passionate about transforming ideas into functional, user-centric digital products that create meaningful impact. I strive to work on projects that challenge me technically and allow me to grow as a developer. <br />
 
 I am proficient in <b>Full Stack Development</b>, have working knowledge of <b>React, JavaScript, Node,js, Flutter, MongoDB and SQL</b>, and have built several projects using the <b>MERN</b> stack. I am currently working on <b>K-Skill</b> project and plan to deepen my expertise by learning <b>Technologies</b> in the near future.
-
+<br />
 Outside of work, I enjoy things like taking <b>Coding contests</b> and a good cup of <b>Tea</b> <CiCoffeeCup style={{ scale: "1.5", rotate: "15deg" }} />.
             <br />
           </p>
