@@ -417,10 +417,10 @@ b{
   box-shadow: 0 4px 10px 0 #431f47;
 }
 
-.projectPhoto{
-  display: block;
+.projectPhoto {
   width: 100%;
-  margin: 20px 0px;
+  height: 150px;
+  object-fit: contain;
 }
 
 .projectbtn{
@@ -513,5 +513,8 @@ footer h4{
 @media(max-width:750px){
   footer{
     height: 110px;
+  }
+  .projectPhoto {
+    height: 130px;
   }
 }
