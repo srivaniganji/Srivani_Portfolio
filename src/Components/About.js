@@ -17,11 +17,11 @@ const About = () => {
           <p>
             Hi, I’m <b>Srivani Ganji</b>, a Software Engineer from Telangana, India.
 I specialize in full-stack development with a strong focus on building scalable and impactful digital learning solutions.
-
+<br />
 I completed my B.Tech in Computer Science and currently work as a Software Engineer at Konam Foundation, where I contribute to developing an innovative English learning platform for rural government school students. My work involves designing efficient systems, building user-friendly interfaces, and solving real-world problems through technology.
-
+<br />
 I enjoy creating meaningful products, writing clean code, and continuously learning new technologies. I'm always open to collaborating on impactful projects where I can contribute and grow.
-
+<br />
 Feel free to connect—links are available in the footer.
             <br />
           </p>
@@ -36,6 +36,7 @@ Feel free to connect—links are available in the footer.
       <div className="skills">
         <Skills skill="C++" />
         <Skills skill="React" />
+        <Skills skill="Flutter" />
         <Skills skill="Javascript" />
         <Skills skill="Node" />
         <Skills skill="Express" />
