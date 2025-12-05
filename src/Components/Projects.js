@@ -1,8 +1,6 @@
 import React from "react";
 import ProjectBox from "./ProjectBox";
 import placementRecord from "../images/placement-record.png";
-import gst from "../images/gst.jpeg";
-import expressVissa from "../images/expressvissa.jpeg";
 import kskill from "../images/board.png";
 
 const Projects = () => {
@@ -11,14 +9,18 @@ const Projects = () => {
       <h1 className="projectHeading">
         My <b>Projects</b>
       </h1>
+
       <div className="project">
         <ProjectBox
           projectPhoto={kskill}
           projectName="K-Skill"
+          githubLink="https://github.com/srivaniganji/k-skill"   
         />
+
         <ProjectBox
           projectPhoto={placementRecord}
           projectName="Placement Particulars Portal"
+          githubLink="https://github.com/srivaniganji/Placement-Particulars-Portal"   
         />
       </div>
     </div>
