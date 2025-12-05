@@ -419,7 +419,7 @@ b{
 
 .projectPhoto {
   width: 100%;
-  height: 150px;
+  height: 90px;
   object-fit: contain;
 }
 
@@ -515,6 +515,6 @@ footer h4{
     height: 110px;
   }
   .projectPhoto {
-    height: 130px;
+    height: 80px;
   }
 }
