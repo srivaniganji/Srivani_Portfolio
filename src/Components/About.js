@@ -15,18 +15,14 @@ const About = () => {
             Get to <b>know</b> me!
           </h1>
           <p>
-            Hi, my name is <b>Srivani Ganji</b> and I am from Devarakonda,
-            Telangana, India. I'm a <b>MERN stack web developer</b> and
-            currently pursuing final year <b>BTech in CSE</b>. <br />
-            <br />I have done an internship as a <b>web developer</b> at Express
-            Vissa. And currently working as a <b>NextJS</b> developer intern at
-            KrelBuz Technologies. I love to create original projects with
-            beautiful designs, you can check out some of my work in the projects
-            section.
-            <br />
-            <br />I am <b>open</b> to new collaborations or work where I can
-            contribute and grow. Feel free to connect with me, links are in the
-            footer.
+            Hi, I’m <b>Srivani Ganji</b>, a Software Engineer from Telangana, India.
+I specialize in full-stack development with a strong focus on building scalable and impactful digital learning solutions.
+
+I completed my B.Tech in Computer Science and currently work as a Software Engineer at Konam Foundation, where I contribute to developing an innovative English learning platform for rural government school students. My work involves designing efficient systems, building user-friendly interfaces, and solving real-world problems through technology.
+
+I enjoy creating meaningful products, writing clean code, and continuously learning new technologies. I'm always open to collaborating on impactful projects where I can contribute and grow.
+
+Feel free to connect—links are available in the footer.
             <br />
           </p>
         </div>
@@ -40,16 +36,17 @@ const About = () => {
       <div className="skills">
         <Skills skill="C++" />
         <Skills skill="React" />
+        <Skills skill="Javascript" />
         <Skills skill="Node" />
         <Skills skill="Express" />
+        <Skills skill="SQL" />
         <Skills skill="MongoDb" />
         <Skills skill="Git" />
         <Skills skill="Github" />
-        <Skills skill="Javascript" />
-        <Skills skill="Figma" />
         <Skills skill="Npm" />
         <Skills skill="Bootstrap" />
         <Skills skill="Vercel" />
+        <Skills skill="Render" />
       </div>
     </>
   );
