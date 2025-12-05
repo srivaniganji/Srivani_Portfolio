@@ -1,17 +1,19 @@
 import React from "react";
 import { FaGithub } from "react-icons/fa";
-import { CgFileDocument } from "react-icons/cg";
 
-const ProjectBox = ({ projectPhoto, projectName }) => {
+const ProjectBox = ({ projectPhoto, projectName, githubLink }) => {
   return (
     <div className="projectBox">
-      <img className="projectPhoto" src={projectPhoto} alt="Project display" />
-      <div>
-        <h3>{projectName}</h3>
-        <button className="projectbtn" href="">
-          <FaGithub /> Github
-        </button>
-      </div>
+      <img src={projectPhoto} className="projectImage" alt={projectName} />
+      <h3 className="projectTitle">{projectName}</h3>
+
+      {githubLink && (
+        <a href={githubLink} target="_blank" rel="noopener noreferrer">
+          <button className="projectbtn">
+            <FaGithub /> Github
+          </button>
+        </a>
+      )}
     </div>
   );
 };
