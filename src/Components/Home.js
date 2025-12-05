@@ -27,19 +27,11 @@ const Home = () => {
             Brief <b>introduction</b>
           </h1>
           <p>
-            I love the process of changing the raw idea into a website or a
-            product that impacts lives. I want to do work that challenges me as
-            a developer & work that I can be proud of.
-            <br />
-            <br />I am fluent in <b>C++</b> and know a bit of <b>Java</b> and
-            done a few projects in the <b>MERN</b> stack.
-            <br />
-            Presently I am working on a <b>Next.js </b>Project. I'm planning to
-            learn
-            <b> Typescript</b> in near future. <br />
-            <br />
-            Also, I love <b>Gulab Jamun, Chai</b>{" "}
-            <CiCoffeeCup style={{ scale: "1.5", rotate: "15deg" }} />
+            I am passionate about transforming ideas into functional, user-centric digital products that create meaningful impact. I strive to work on projects that challenge me technically and allow me to grow as a developer.
+
+I am proficient in <b>Full Stack Development</b>, have working knowledge of <b>React, JavaScript, Node,js, Flutter, MongoDB and SQL</b>, and have built several projects using the <b>MERN</b> stack. I am currently working on <b>K-Skill</b> project and plan to deepen my expertise by learning <b>Technologies</b> in the near future.
+
+Outside of work, I enjoy things like taking <b>Coding contests</b> and a good cup of <b>Tea</b> <CiCoffeeCup style={{ scale: "1.5", rotate: "15deg" }} />.
             <br />
           </p>
         </div>
